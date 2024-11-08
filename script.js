@@ -18,6 +18,10 @@ const questions = [
     {
         question: "The Vikings discovered North America before Columbus.",
         answer: true
+    },
+    {
+        question: "The Vikings bathed one a week",
+        answer: true
     }
 ];
 
