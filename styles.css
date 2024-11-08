@@ -68,4 +68,13 @@ h1 {
     color: #28a745;
 }
 
+footer { 
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    text-align: center; 
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
 
