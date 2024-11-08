@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viking History True or False Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Viking History True or False</h1>
+            <div id="questionContainer">
+                <p id="question">Question will appear here</p>
+                <div class="buttons">
+                    <button onclick="checkAnswer(true)">True</button>
+                    <button onclick="checkAnswer(false)">False</button>
+                </div>
+            </div>
+            <p id="result"></p>
+            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+            <p id="score">Score: 0</p>
+            <p id="congrats" style="display: none;">Congratulations! You've completed all the questions!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
