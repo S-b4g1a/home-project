@@ -16,8 +16,8 @@ body {
 }
 
 .card {
-    background: url('assets/DALL·E\ 2024-11-08\ 14.34.18\ -\ A\ breathtaking\ Viking\ scenery\ with\ a\ fjord\ surrounded\ by\ towering\ snow-capped\ mountains.\ Traditional\ wooden\ Viking\ ships\ with\ intricately\ carved\ drago.webp')
-    fill;
+    background: url('assets/DALL·E\ 2024-11-08\ 14.34.18\ -\ A\ breathtaking\ Viking\ scenery\ with\ a\ fjord\ surrounded\ by\ towering\ snow-capped\ mountains.\ Traditional\ wooden\ Viking\ ships\ with\ intricately\ carved\ drago.webp');
+    backdrop-filter: blur(100px);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -67,4 +67,5 @@ h1 {
     font-size: 18px;
     color: #28a745;
 }
+
 
