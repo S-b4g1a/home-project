@@ -47,11 +47,6 @@ h1 {
     background-color: #0056b3;
 }
 
-.nextButton {
-    display: flex;
-    align-items: center;
-}
-
 #result {
     font-size: 18px;
     margin-bottom: 20px;
