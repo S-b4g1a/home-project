@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background: url('assets/DALL·E\ 2024-11-08\ 14.34.18\ -\ A\ breathtaking\ Viking\ scenery\ with\ a\ fjord\ surrounded\ by\ towering\ snow-capped\ mountains.\ Traditional\ wooden\ Viking\ ships\ with\ intricately\ carved\ drago.webp') no-repeat center center/cover;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -16,13 +16,19 @@ body {
 }
 
 .card {
-    background: #fff;
+    background: url('assets/DALL·E\ 2024-11-08\ 14.34.18\ -\ A\ breathtaking\ Viking\ scenery\ with\ a\ fjord\ surrounded\ by\ towering\ snow-capped\ mountains.\ Traditional\ wooden\ Viking\ ships\ with\ intricately\ carved\ drago.webp')
+    fill;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 400px;
     width: 100%;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 h1 {
